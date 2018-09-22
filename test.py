@@ -5,4 +5,3 @@ app=Flask(__name__)
 def index():
     return "ok"
 
-app.run()
