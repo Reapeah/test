@@ -1,2 +1,2 @@
-web: gunicorn test:application --log-file=-
+web: gunicorn test:app --log-file=-
 
