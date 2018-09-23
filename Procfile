@@ -1,2 +1,2 @@
-web: gunicorn weather:application --log-file=-
+web: gunicorn test:application --log-file=-
 
