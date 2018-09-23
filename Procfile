@@ -1,2 +1,2 @@
-web: gunicorn project.wsgi:application --log-file=-
+web: gunicorn weather:application --log-file=-
 
